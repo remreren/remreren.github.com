@@ -13,29 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-github: ""
-title: Github pages jekyll test
-email: eeren881@gmail.com
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Test for jekyll in github pages.
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
-url: "https://eeren.co" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  remreren
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-future: true
-jailed: false
-encoding: UTF-8
 markdown: kramdown
-theme: jekyll-theme-primer
-gfm-quirks: paragraph_end
+theme: minima
 plugins:
   - jekyll-feed
-
-kramdown:
-  input: GFM
-  hard_wrap: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
